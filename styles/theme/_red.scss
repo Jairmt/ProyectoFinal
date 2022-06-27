@@ -1,0 +1,9 @@
+html[color-mode="red"] {
+    --bg: var(--red);
+    --text-color: var(--white);
+    --btn-color: var(--purple-2);
+    --btn-text-color: var(--white);
+    --btn-color-active: var(--purple-3);
+    --title-color: var(--white);
+    --switch-ball: var(--white);
+}

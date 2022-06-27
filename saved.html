@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Modulo 3 | Clase 14 | Guardando nuestros datos en indexDB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <header class="site-header" role="banner">
+        <div class="wrapper">
+            <div class="site-header__inner">
+                <a href="/" aria-label="Studio Ghibli Database" class="site-header__brand">
+                    Movie Repository
+                </a>
+                <nav role="navigation">
+                    <ul>
+                        <li onclick="document.getElementById('home').click()"><a id="home" href="index.html">home</a></li>
+                        <li onclick="document.getElementById('saved').click()"><a id="saved" href="saved.html">saved</a></li>
+                        <li><a href="#">select theme</a>
+                            <ul class="dropdown">
+                                <li value="light" id="light" class="data-theme-toggle">light</li>
+                                <li value="dark" id="dark" class="data-theme-toggle">dark</li>
+                                <li value="red" id="red" class="data-theme-toggle">red</li>
+                                <li value="green" id="green" class="data-theme-toggle">green</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main" class="wrapper">
+        <div class="movie-grid content" id="movie-grid">
+
+        </div>
+    </main>
+</body>
+
+</html>
